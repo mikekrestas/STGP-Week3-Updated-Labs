@@ -29,3 +29,16 @@ console.log("Value of movie:", movie);
 findMovie(movie);
 
 
+function returnMovie(movieTitle) {
+    for (const movie of movies) {
+      if (movie.title === movieTitle) {
+        console.log(movie);
+        return movie;
+      }
+      console.log("Movie returned");
+    }
+    return "Movie not found";
+  }
+
+  returnMovie("Justice League")
+  
