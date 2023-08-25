@@ -1,4 +1,4 @@
-quote = ["I", "am", "your", "friend"];
+let quote = ["I", "am", "your", "friend"];
 
 console.log(quote[1]);
 
