@@ -18,11 +18,11 @@ darthVader.allegiance = "The light side";
 delete darthVader.children;
 let {allegiance, weapon, sith, childNames} = darthVader;
 
-// for (var key in darthVader) {
-//     if (darthVader.hasOwnProperty(key)) {
-//       console.log(key + ': ' + darthVader[key]);
-//     }
-// }
+for (var key in darthVader) {
+    if (darthVader.hasOwnProperty(key)) {
+      console.log(key + ': ' + darthVader[key]);
+    }
+}
 
 
 
